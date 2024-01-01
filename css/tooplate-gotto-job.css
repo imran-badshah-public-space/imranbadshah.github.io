@@ -12,7 +12,7 @@ https://www.tooplate.com/view/2134-gotto-job
 :root {
   --white-color:                  #ffffff;
   --primary-color:                #5d52ba;
-  --secondary-color:              #0dcaf0;
+  --secondary-color:              #11bee0;
   --section-bg-color:             #f0f8ff;
   --custom-btn-bg-color:          #f65129;
   --social-icon-link-bg-color:    #7f73eb;
@@ -48,6 +48,24 @@ body {
   font-family: var(--body-font-family); 
 }
 
+/*---------------------------------------
+  IM:            
+-----------------------------------------*/
+/* Media query for dark mode */
+/* @media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--dark-color);
+    color: var(--white-color);
+  }
+} */
+
+.glow-effect {
+  transition: box-shadow 0.7s cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+
+.glow-effect:hover {
+  box-shadow: 0 0 20px var(--secondary-color);
+}
 
 /*---------------------------------------
   TYPOGRAPHY               
